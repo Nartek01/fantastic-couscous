@@ -1,13 +1,14 @@
-import './App.css';
-import { Header } from './Header';
+import "./App.css";
+import { Header } from "./Header";
+import Home from "./Home";
 
 function App() {
   return (
-      // BEM
+    // BEM
     <div className="App">
-        <Header/>
-    {/* Home */}
-    {/* Footer */}
+      <Header />
+      <Home />
+      {/* Footer */}
     </div>
   );
 }
