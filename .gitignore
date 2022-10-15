@@ -21,3 +21,6 @@
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+/.idea/clever_programmer_amazone_clone.iml
+/.idea/modules.xml
+/.idea/vcs.xml
