@@ -9,7 +9,7 @@ function App() {
     <Router>
       <div className="App">
         <Switch>
-          <Route>
+          <Route path={"/checkout"}>
             <Header />
             <h1>I AM A CHECKOUT</h1>
           </Route>
