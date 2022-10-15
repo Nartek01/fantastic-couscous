@@ -24,3 +24,4 @@ yarn-error.log*
 /.idea/clever_programmer_amazone_clone.iml
 /.idea/modules.xml
 /.idea/vcs.xml
+/.idea/prettier.xml
