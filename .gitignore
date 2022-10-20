@@ -1,6 +1,30 @@
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# dependencies
+/node_modules
+/.pnp
+.pnp.js
+package-lock.json
+package.json
+
+# testing
+/coverage
+
+# production
+/build
+
+# misc
 .DS_Store
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+/.idea/clever_programmer_amazone_clone.iml
+/.idea/modules.xml
+/.idea/vcs.xml
+/.idea/prettier.xml
 clever_programmer_amazone_clone.code-workspace
-.idea/clever_programmer_amazone_clone.iml
-.idea/modules.xml
-.idea/prettier.xml
-.idea/vcs.xml
