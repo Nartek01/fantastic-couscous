@@ -1,3 +1,13 @@
+# Disclaimer
+
+This repo is for personal tracking and note taking. <br/>
+I'm following a tutorial from Clever Programmer called </br>
+Build a Full-Stack AMAZON Clone with REACT JS for Beginners
+
+<pre>
+https://www.youtube.com/watch?v=RDV3Z1KCBvo&t=9367s
+</pre>
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
@@ -69,21 +79,20 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
 
-
 FAQ
 Few Updates :-
 
-1) As per the new updated Firebase we must import Firebase as follows (firebase.js file):
+1. As per the new updated Firebase we must import Firebase as follows (firebase.js file):
    import firebase from 'firebase/compat/app';
    import 'firebase/compat/auth';
    import 'firebase/compat/firestore';
 
-2) useHistory is updated as useNavigate
+2. useHistory is updated as useNavigate
    import { Link, useNavigate } from 'react-router-dom'
    const navigate = useNavigate ();
    navigate('/')
 
-3) <Switch> is deprecated in the lastest version of React instead use <Routes>
+3. <Switch> is deprecated in the lastest version of React instead use <Routes>
 import {BrowserRouter as Router, Routes, Route} from "react-router-dom";
 <Router>
 <div className="app">
@@ -95,5 +104,5 @@ import {BrowserRouter as Router, Routes, Route} from "react-router-dom";
 </div>
 </Router>
 
-4) Use this instead of history.replace
+4. Use this instead of history.replace
    navigate('/orders', { replace: true });
